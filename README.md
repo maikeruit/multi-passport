@@ -1,6 +1,16 @@
 # Introduction
 
 The add-on for Laravel Passport allows you to use an unlimited number of tables for authorization of different users.
+Worked for Password Grant Token
+https://laravel.com/docs/7.x/passport#password-grant-tokens
+
+## Install
+
+```shell script
+./artisan vendor:publish --tag multipassport-config
+./artisan vendor:publish --tag multipassport-migrations
+./artisan migrate
+```
 
 ## Example
 `auth.php`
