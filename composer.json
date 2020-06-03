@@ -1,0 +1,37 @@
+{
+  "version": "1.0.1",
+  "name": "sumatoreo/multi-passport",
+  "description": "Laravel Passport multi table authorization.",
+  "keywords": ["laravel", "passport", "oauth", "multi", "sumatoreo"],
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/sumatoreo/multi-passport/issues",
+    "source": "https://github.com/sumatoreo/multi-passport"
+  },
+  "authors": [
+    {
+      "name": "Iskander Kamaliev",
+      "email": "iskander.kamaliev@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Sumatoreo\\MultiPassport\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.2"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Sumatoreo\\MultiPassport\\MultiPassportServiceProvider"
+      ],
+      "aliases": {
+        "Laravel\\Passport\\Bridge\\UserRepository": "Sumatoreo\\MultiPassport\\Bridge\\UserRepository",
+        "Laravel\\Passport\\Guards\\TokenGuard": "Sumatoreo\\MultiPassport\\Guards\\TokenGuard"
+      }
+    }
+  }
+}
