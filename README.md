@@ -1,8 +1,8 @@
-#Introduction
+##Introduction
 
 The add-on for Laravel Passport allows you to use an unlimited number of tables for authorization of different users.
 
-## Example
+### Example
 `auth.php`
 ```php
 <?php
@@ -145,7 +145,7 @@ return [
 
 ```
 
-## Example request
+### Example request
 
 Using an additional field `guard`, you can log in to the desired user table.
 
@@ -168,7 +168,7 @@ return json_decode((string) $response->getBody(), true);
 
 ```
 
-## Authentication
+### Authentication
 
 During authentication, the desired model is selected, so you will not have problems if you try to get it.
 
