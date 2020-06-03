@@ -2,7 +2,7 @@
 
 The add-on for Laravel Passport allows you to use an unlimited number of tables for authorization of different users.
 
-# Example
+## Example
 `auth.php`
 ```php
 <?php
