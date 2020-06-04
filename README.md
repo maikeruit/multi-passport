@@ -1,3 +1,10 @@
+# Info
+Laravel Passport added multi-table authentication functionality.
+
+https://laravel.com/docs/7.x/passport#customizing-the-user-provider
+
+This project is irrelevant
+
 # Introduction
 
 The add-on for Laravel Passport allows you to use an unlimited number of tables for authorization of different users.
@@ -32,7 +39,7 @@ return [
 
     'defaults' => [
         'guard' => 'webmaster',
-        'passwords' => 'users',
+        'passwords' => 'webmasters',
     ],
 
     /*
